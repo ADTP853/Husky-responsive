@@ -74,4 +74,69 @@ header h2{
     color: azure;
     background-color: rgb(167, 143, 111);
 }
+/*  MEDIA QUERIES  */
 
+        /* PHONE SCREENS (iPhone SE) */
+
+@media screen and (max-width:599px){
+    #about{
+        font-size: 15px;
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+    #double{
+        flex-flow: column;
+    }
+    #food{
+        font-size: 15px;
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+    #toys{
+        font-size: 15px;
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+}
+/* TABLETS (iPAD) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #about{
+        font-size: 20px;
+    }
+    #double{
+        flex-flow: column;
+    }
+    #food{
+        font-size: 20px;
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+    #toys{
+        font-size: 20px;
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+    #double{
+        flex-flow: row;
+    }
+    #food{
+        width: 50%;
+        margin-left:5%;
+        margin-right:5%;
+        font-size: 17px;
+    }
+    #toys{
+        width: 50%;
+        margin-left:5%;
+        margin-right:5%;
+        font-size: 17px;
+    }
+}
