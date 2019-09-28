@@ -67,7 +67,6 @@ header h2{
 }
 #button{
     display: block;
-    border: 2px solid red;
     color: orange;
     background-color: rgb(175, 114, 1);
     text-decoration: none;
